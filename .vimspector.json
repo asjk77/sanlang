@@ -1,0 +1,19 @@
+{
+  "configurations": {
+    
+    "Debug": {
+      "adapter": "vscode-cpptools",
+      "configuration": {
+        "type":    "cppdbg",
+        "request": "launch",
+        "program": "${workspaceRoot}/build/test/SanLang_test_SyntaxRuleManager",
+        "externalConsole": true,
+        "stopAtEntry": true,
+        "MIMode": "lldb",
+        "logging": {
+          "engineLogging": false
+        }
+      }
+    }
+  }
+}
